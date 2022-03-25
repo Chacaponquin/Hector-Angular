@@ -1,0 +1,35 @@
+.home-container {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+}
+
+.home-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 8px gray;
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    width: max-content;
+    justify-self: center;
+}
+
+.home-card>img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.home-card>button {
+    border-radius: 10px;
+    padding: 1rem 3rem;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #00a8ff;
+    color: white;
+    border: none;
+}

@@ -1,0 +1,24 @@
+<div class="userSelected-container" *ngIf="userFound">
+    <div class="useSelected">
+        <section class="info-section">
+            <h1>Nombre</h1>
+            <p>{{ userFound.first_name }} {{ userFound.last_name }}</p>
+        </section>
+        <section class="info-section">
+            <h1>Email</h1>
+            <p>{{ userFound.email }}</p>
+        </section>
+        <section class="info-section">
+            <h1>Genero</h1>
+            <p>{{ userFound.gender }}</p>
+        </section>
+        <section class="info-section">
+            <h1>Phone</h1>
+            <p>{{ userFound.phone }}</p>
+        </section>
+        <section class="info-section">
+            <h1>Descripcion</h1>
+            <p>{{ userFound.description }}</p>
+        </section>
+    </div>
+</div>

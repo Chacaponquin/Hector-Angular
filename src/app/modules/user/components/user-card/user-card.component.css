@@ -1,0 +1,22 @@
+.user-card {
+    padding: 2rem 2.5rem;
+    border-left: 8px solid #9c88ff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    margin: 1.5rem 0;
+    box-shadow: 3px 5px 8px gray;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    justify-content: space-between;
+}
+
+.user-card>p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.user-card:hover {
+    transform: scale(1.03);
+}

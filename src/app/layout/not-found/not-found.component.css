@@ -1,0 +1,15 @@
+.notFound-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.notFound-container>div {
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    padding: 3rem 4rem;
+    background-color: #eb2f06;
+    border-radius: 5px;
+}

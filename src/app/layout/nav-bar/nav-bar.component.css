@@ -1,0 +1,30 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 3rem;
+    background-color: #f5f6fa;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+
+.navBar>div {
+    display: flex;
+}
+
+.route-active {
+    background-color: #00a8ff;
+    color: white !important;
+}
+
+.button-home {
+    border-radius: 10px;
+    padding: 1rem 3rem;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    margin-left: 1.5rem;
+}

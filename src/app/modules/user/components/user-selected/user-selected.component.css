@@ -1,0 +1,32 @@
+.userSelected-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.useSelected {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+    box-shadow: 3px 3px 8px gray;
+    border-radius: 20px;
+    border: 4px solid #9c88ff;
+}
+
+.info-section {
+    margin-bottom: 1rem;
+}
+
+.info-section>h1 {
+    font-size: 30px;
+    color: #9c88ff;
+}
+
+.info-section>p {
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+    padding: 3px 0px;
+}

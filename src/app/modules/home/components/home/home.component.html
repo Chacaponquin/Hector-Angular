@@ -1,0 +1,6 @@
+<div class="home-container">
+    <div *ngFor="let card of homeCards" class="home-card">
+        <img src="{{ card.image }}" alt="{{ card.label }}" />
+        <button routerLink="{{ card.route }}">{{ card.label }}</button>
+    </div>
+</div>
